@@ -160,7 +160,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .nav-menu .active > a,
 .nav-menu li:hover > a {
   color: rgb(10, 10, 10);
-  text-decoration:underline #717171;
+  
 }
 
 .nav-menu .drop-down ul {
@@ -219,7 +219,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .lipri :hover {
-  background-color: #06509f;
+  background-color: #9f8706;
+  border-radius: 20px;
 }
 
 .lisec {
@@ -230,8 +231,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 .ulMenu {
   padding-bottom: 49.25px;
-  border: solid 2px black;
-  border-radius: 6px;
+  /*border: solid 2px black;
+  border-radius: 6px;*/
 }
 
 
