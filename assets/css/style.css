@@ -509,9 +509,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
-section {
+/*section {
   padding: 60px 0;
-}
+}*/
 
 .section-bg {
   background-color: #fcf5f5;
@@ -1719,9 +1719,9 @@ section {
 # NOSOTROS CUADROS01
 --------------------------------------------------------------*/
 
-section {
+/*section {
   padding: 60px 0;
-}
+}*/
 
 .section-bg {
   background-color: #f5f9fc;
@@ -1960,20 +1960,33 @@ body, html {
 
 
 /*HORARIOS*/
-.center-content {
+.row {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+}
+
+.column {
+  flex: 50%;
+  padding: 10px;
+}
+
+.center-content009 {
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
 .content-wrapper {
   display: flex;
+  flex-direction: row;
   align-items: center;
 }
 
 .text-right {
-  margin-left: 10px; /* Espacio entre la imagen y el texto */
+  margin-left: 10px;
 }
+
 .centered-image {
   width: 200px;
   height: 150px;
@@ -1981,3 +1994,103 @@ body, html {
 }
 
 /*END HORARIOS*/
+
+
+/*TALLERES*/
+.image-row008 {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.image-row008 img {
+  max-width: 200px; 
+  max-height: 200px; 
+  margin: 0 5px; 
+}
+.image-row008 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-container {
+  text-align: center;
+  margin: 10px;
+}
+
+.image-caption {
+  margin-top: 5px;
+  font-size: 14px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.image-caption {
+  margin-top: 5px;
+  font-size: 14px;
+  border: 1px solid black;
+  padding: 5px; 
+}
+.image-caption {
+  margin-top: 5px;
+  font-size: 14px;
+  border-radius: 1px solid black; 
+  padding: 5px;
+  transition: border-color 0.3s ease;
+}
+
+.image-container:hover .image-caption {
+  background-image: linear-gradient(to bottom right, #FFD100, blue); 
+  color: white; 
+}
+
+/*END TALLERES*/
+
+/*UNIFORMES*/
+.image-row010 {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.image-row010 img {
+  max-width: 200px; 
+  max-height: 200px; 
+  margin: 0 5px; 
+}
+.map-container {
+  width: 350px;
+  height: 350px;
+  border: 5px solid #000;
+  border-radius: 20px;
+  overflow: hidden;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+/*END UNIFORMES*/
+
+/*direccion*/
+.image-row011 {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: center; 
+  
+}
+
+.image-row011 div {
+  display: inline-block;
+}
+
+.image-row011 img {
+  max-width: 200px; 
+  max-height: 200px; 
+  margin: 0 5px; 
+}
+/*END direccion*/
